@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="web前端个人简历" />
+    <meta name="description" content="刘志华的个人简历">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" href="css/component.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>个人简历</title>
+</head>
+<body>
+    <!-- header navigation -->
+    <header>
+        <div id="logo">
+            <div id="header_img"><img src="image/tx.jpg" alt="" /></div>
+            <div id="header_p">
+                <p id="header_p1">Resume</p>
+                <p id="header_p2">个人简历 </p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">首页</a></li>
+                <li><a href="">随笔</a></li>
+                <li><a href="">积淀</a></li>
+                <li><a href="">关于</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header navigation end -->
+    <!-- aside navigation -->
+    <aside>
+        <a href="#page1"><b>首页</b></a>
+        <a href="#page2"><b>关于我</b></a>
+        <a href="#page3"><b>专业技能</b></a> 
+        <a href="#page4"><b>部分作品</b></a>
+        <a href="#page5"><b>联系我</b></a>
+    </aside>
+    <!-- aside navigation end -->
+    <!-- home page -->
+    <div id="dowebok">
+        <!-- home -->
+        <div class="section one">
+            <div id="home">
+                <div id="home_content">
+                    <div id="home_head">
+                        <div id="home_head_content">
+                            <img src="image/tx.jpg" id="home_photo1" alt="" /> 
+                        </div>
+                    </div>
+                    <div id="home_info">
+                        <p id="home_info1">生活是一种绵延不绝的渴望,渴望不断上升,变得更伟大而高贵。</p>
+                        <div id="home_info_box">
+                            <p id="home_info2">我叫刘志华</p>
+                            <p id="home_info3">27岁/女</p>
+                            <p id="home_info4">一名前端研发工程师</p>
+                            <p id="home_info5">291057526@qq.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- home end -->
+        <!-- about -->
+        <div class="section two">
+            <div id="about">
+                <div id="about_content">
+                    <div class="title">
+                        <h1>关于我</h1>
+                    </div>
+                    <div id="about_list_content">
+                        <div class="about_list" id="about_list1">
+                            <div class="about_list_eg" id="about_en_edu">education</div>
+                            <div class="about_list_cn" id="about_cn_edu">学历<p>本科</p></div>
+                        </div>
+                        <div class="about_list">
+                            <div class="about_list_eg" id="about_en_age">age</div>
+                            <div class="about_list_cn" id="about_cn_age">年龄<p>27岁</p></div>
+                        </div>
+                        <div class="about_list">
+                            <div class="about_list_eg" id="about_en_loc">location</div>
+                            <div class="about_list_cn" id="about_cn_loc">坐标<p>上海</p></div>
+                        </div>
+                        <div class="about_list">
+                            <div class="about_list_eg" id="about_en_sta">status</div>
+                            <div class="about_list_cn" id="about_cn_sta">状态<p>离职</p></div>
+                        </div>
+                    </div>
+                    <div id="about_info">
+                    <ul>
+                        <li>对前端开发有着浓厚的兴趣,有良好的编程习惯</li>
+                        <li>个性开朗,有责任心,有良好的团队合作精神</li>
+                        <li>善于接受新事物，能很快的适应新的环境</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about end -->
+        <!-- skill -->
+        <div class="section three">
+            <div id="skill">
+                <div id="skill_content">
+                    <div class="title">
+                        <h1>专业技能</h1>
+                    </div>
+                    <div id="skill_info"></div>
+                    <div id="skill_list">
+
+                        <!-- <div class="container"> -->
+                            <canvas id="c"></canvas>
+ 
+                        <!-- </div> -->
+                             
+                       <ul class=" list_r">
+                            <li>熟练掌握HTML/CSS编写页面，能解决主流的浏览器兼容性问题</li>
+                            <li>熟练掌握HTML5/CSS3新特性，配合Bootstrap进行PC、移动端开发</li>
+                            <li>熟练掌握原生JS操作BOM、DOM，熟练使用jQuery、zepto</li>
+                            <li>会使用：Gulp/less; 包管理工具：npm; 会使用Git进行源码管理 </li>
+                            <li>对模块化开发有一定了解,了解Angular,node.js</li>
+                        </ul> 
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+        <!-- skill end -->
+ 
+        <!-- demo -->
+        <div class="section four">
+            <div id="demo">
+                <div id="demo_content">
+                    <div class="title">
+                        <h1>部分作品</h1>
+                    </div>
+                    <div id="demo_content_list">
+                        <ul class="demo_box">
+                            <li class="demo_scale">
+                                <div class="demo_box_content">
+                                       <img src="image/hldm.gif" height="300" width="400" alt="" class="demo_box_bg"/>
+                                </div>
+                                <p class="disc">
+                                    红旅动漫demo:<br>
+                                    利用zepto进行移动端布局 
+根据后台提供接口发送ajax,并渲染页面      
+                                </p>
+                            </li>
+                           
+                            <li class="demo_scale">
+                                <div class="demo_box_content">
+                                    <img src="image/db.gif" height="300" width="300" alt="" class="demo_box_bg"/>
+                                </div>
+                                 <p class="disc">
+                                    豆瓣demo<br>
+                                    使用angular1框架实现数据绑定,分页,搜索等功能  
+                                </p>
+                            </li>
+                             <li class="demo_scale">
+                                <div class="demo_box_content">
+                                   
+                                        <img src="image/wjs.gif" height="300" width="300" alt="" class="demo_box_bg"/>
+                                     <p class="disc">
+                                    微金所demo:<br>
+                                    使用bootstrap实现响应式布局 
+                                </p>
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                    </div> 
+                   
+                </div>
+            </div>
+        </div>
+        <!-- demo end -->
+        <!-- contact -->
+        <div class="section five">
+            <div id="contact">
+                <div id="contact_content">
+                    <div class="title">
+                        <h1>联系我</h1>
+                    </div>
+                    <div id="contact_head">
+                        <div id="contact_head1">灵感 代码 梦想 未来</div>
+                        <div id="contact_head2">
+                            <span>inspiration</span>
+                            <span>code</span>
+                            <span>dream</span>
+                            <span>future</span>
+                        </div>
+                    </div>
+                    <div id="contact_info" class="contact_scale">
+                        <ul>
+                            <li>Tel：13061958138</li>
+                            <li>E-mail: 291057526@qq.com</li>
+                            <li>QQ/微信：291057526</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        <!-- contact end -->
+    </div>
+    <!-- home page end -->
+    <!-- pop layer -->
+    <div class="md-modal md-effect-11" id="modal-1">
+        <div class="md-content">
+            <h3>小黄人O(∩_∩)O~</h3>
+            <div>
+                <img src="image/Minions.jpg" alt="" />
+                <button class="md-close">明白了</button>
+            </div>
+        </div>
+    </div>
+    <div class="md-modal md-effect-13" id="modal-2">
+        <div class="md-content">
+            <h3>学习路线</h3>
+            <div class="modal-learn">
+                <p>学习用到的书籍</p>
+                <ul>
+                    <li>《html5+css3基础教程（第七版）》</li>
+                    <li>《css揭秘》</li>
+                    <li>《JavaScript DOM编程艺术（第二版）》</li>
+                    <li>《锋利的jQuery（第二版）》</li>
+                    <li>《JavaScript高级程序设计（第三版）》</li>
+                    <li>《JavaScript权威指南》</li>
+                </ul>
+                <button class="md-close">明白了</button>
+            </div>
+        </div>
+    </div>
+     
+    <div class="md-overlay"></div>
+    <!-- pop layer -->
+</body>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cssParser.js"></script>
+<script src="js/modalEffects.js"></script>
+<script src="js/index.js"></script>
+
+ 
+    
+</html>
