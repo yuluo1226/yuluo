@@ -10,25 +10,47 @@
     <link rel="stylesheet" href="css/component.css" />
     <link rel="stylesheet" href="css/index.css" />
     <title>个人简历</title>
+    
+    <script type="text/javascript" src='js/template-native.js'></script>
+    <script type="text/template" id='template'>
+
+    <%for(var i=0;i<weather_data.length;i++) {%>
+            <tr>
+            <td><%=weather_data[i].date%></td>
+            <td><img src="<%=weather_data[i].dayPictureUrl%>" alt=""></td>
+            <td><img src="<%=weather_data[i].nightPictureUrl%>" alt=""></td>
+            <td><%=weather_data[i].temperature%></td>
+            <td><%=weather_data[i].weather%></td>
+            <td><%=weather_data[i].wind%></td>
+        </tr>
+        
+    <% } %>
+
+</script>
 </head>
 <body>
+ <!-- 百度天气 -->
+        <div class="weather_cont">
+            <table id='weather'></table>
+        </div>
     <!-- header navigation -->
     <header>
         <div id="logo">
             <div id="header_img"><img src="image/tx.jpg" alt="" /></div>
             <div id="header_p">
-                <p id="header_p1">Resume</p>
+                <p id="header_p1">刘志华</p>
                 <p id="header_p2">个人简历 </p>
             </div>
         </div>
         <nav>
             <ul>
-                <li><a href="">首页</a></li>
-                <li><a href="">随笔</a></li>
-                <li><a href="">积淀</a></li>
-                <li><a href="">关于</a></li>
+                <li><a href="#">首页</a></li>
+                <li ><a href="#" class="wbutton">获取天气预报</a></li><!-- 
+                <li><a href="">积淀</a></li> -->
+                <li><a href="#">关于</a></li>
             </ul>
         </nav>
+   
     </header>
     <!-- header navigation end -->
     <!-- aside navigation -->
@@ -247,7 +269,7 @@
 <script src="js/cssParser.js"></script>
 <script src="js/modalEffects.js"></script>
 <script src="js/index.js"></script>
-
+<script src="js/weather.js"></script>
  
     
 </html>

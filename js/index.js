@@ -1,32 +1,5 @@
 $(function(){
-	// $.ajax({
-	// 	type: "GET",
-	// 	url: "ajax/message.json",
-	// 	dataType: "json",
-	// 	success: function(data){
-	// 		data.about_info.forEach(function(item){
-	// 			$("#about_info").append("<p>"+item+"</p>");
-	// 		});
-	// 		$("#skill_info").append("<p>"+data.skill_info+"</p>");
-	// 		$(".skill_int").append("<ul></ul>");
-	// 		data.angularJs.forEach(function(item){
-	// 			$("#skill_int1 ul").append("<li>"+item+"</li>");
-	// 		});
-	// 		data.html.forEach(function(item){
-	// 			$("#skill_int2 ul").append("<li>"+item+"</li>");
-	// 		});
-	// 		data.css.forEach(function(item){
-	// 			$("#skill_int3 ul").append("<li>"+item+"</li>");
-	// 		});
-	// 		data.javaScript.forEach(function(item){
-	// 			$("#skill_int4 ul").append("<li>"+item+"</li>");
-	// 		});
-	// 		$("#exp_info").append("<p>"+data.exp_info+"</p>");
-	// 		data.contact_info.forEach(function(item){
-	// 			$("#contact_info ul").append("<li>"+item+"</li>");
-	// 		});
-	// 	}
-	// });
+
     $('#dowebok').fullpage({
 		scrollingSpeed: 400,
 		css3: true,
@@ -163,7 +136,7 @@ $(function(){
 		$("#header_p1").html("Resume");
 		$("#header_p2").html("前端工程师");
 	}).mouseout(function(){
-		$("#header_p1").html("Resume");
+		$("#header_p1").html("刘志华");
 		$("#header_p2").html("个人简历");	
 	});
 //顶部导航取消
