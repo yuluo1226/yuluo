@@ -2,7 +2,7 @@ $(function(){
 
 $(".wbutton").hover(function () {
 		$.ajax({
-			url:"http://api.map.baidu.com/telematics/v3/weather?location=上海&output=json&ak=tq0Kt0NFYheTCj5mszast0drkIqqVTNn",
+			url:"https://api.map.baidu.com/telematics/v3/weather?location=上海&output=json&ak=tq0Kt0NFYheTCj5mszast0drkIqqVTNn&s=1",
 			dataType:'jsonP',
 			success:function(data){
 				// 读取对象
